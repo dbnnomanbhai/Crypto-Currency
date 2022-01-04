@@ -1,0 +1,113 @@
+C:\Users\Noman\source\repos\crypto\crypto\bin\Debug\crypto.exe.config
+C:\Users\Noman\source\repos\crypto\crypto\bin\Debug\crypto.exe
+C:\Users\Noman\source\repos\crypto\crypto\bin\Debug\crypto.pdb
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.csproj.AssemblyReference.cache
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Form1.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Properties.Resources.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.csproj.GenerateResource.cache
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.csproj.CoreCompileInputs.cache
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.exe
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.pdb
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Dashboard.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.CustomerView.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.UpdateCustomer.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Viewbalance.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Signup.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Deletcustomer.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Help.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Coin.resources
+C:\Users\Noman\source\repos\crypto\crypto\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Noman\source\repos\crypto\crypto\bin\Debug\CryptoLib.dll
+C:\Users\Noman\source\repos\crypto\crypto\bin\Debug\KeyConverter.dll
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.csproj.CopyComplete
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.CryproTransaction.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Developer.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.AdminRegistration.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Adminlogin.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.AdminDashboard.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.AdminUpdateProfile.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Welcome.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Buycoin.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Addmoney.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.AdminViewTrans.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Homepage.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.Withdraw.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.AdminAddCoin.resources
+C:\Users\Noman\source\repos\crypto\crypto\obj\Debug\crypto.AdminViewQuery.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\bin\Debug\crypto.exe.config
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\bin\Debug\crypto.exe
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\bin\Debug\crypto.pdb
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\bin\Debug\CryptoLib.dll
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\bin\Debug\KeyConverter.dll
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Addmoney.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.AdminAddCoin.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.AdminDashboard.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Adminlogin.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.AdminRegistration.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.AdminUpdateProfile.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.AdminViewQuery.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.AdminViewTrans.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Buycoin.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Coin.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.CryproTransaction.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.CustomerView.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Dashboard.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Deletcustomer.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Developer.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Form1.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Help.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Homepage.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Properties.Resources.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Signup.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.UpdateCustomer.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Viewbalance.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Welcome.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Withdraw.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.csproj.GenerateResource.cache
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.csproj.CopyComplete
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.exe
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.pdb
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Form3.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.Home.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.first.resources
+C:\Users\Asus\Documents\8\C#\crypto (1)\crypto\crypto\obj\Debug\crypto.sir.resources
+F:\Download\cryptoupdated\crypto\crypto\bin\Debug\crypto.exe.config
+F:\Download\cryptoupdated\crypto\crypto\bin\Debug\crypto.exe
+F:\Download\cryptoupdated\crypto\crypto\bin\Debug\crypto.pdb
+F:\Download\cryptoupdated\crypto\crypto\bin\Debug\BouncyCastle.Crypto.dll
+F:\Download\cryptoupdated\crypto\crypto\bin\Debug\CryptoLib.dll
+F:\Download\cryptoupdated\crypto\crypto\bin\Debug\KeyConverter.dll
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.csproj.AssemblyReference.cache
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Addmoney.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.AdminAddCoin.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.AdminDashboard.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Adminlogin.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.AdminRegistration.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.AdminUpdateProfile.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.AdminViewQuery.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.AdminViewTrans.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Buycoin.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Coin.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.CryproTransaction.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.CustomerView.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Dashboard.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Deletcustomer.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Developer.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Form1.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Homepage.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Help.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.sir.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Properties.Resources.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Signup.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.UpdateCustomer.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Viewbalance.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Welcome.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.Withdraw.resources
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.csproj.GenerateResource.cache
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.csproj.CoreCompileInputs.cache
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.csproj.CopyComplete
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.exe
+F:\Download\cryptoupdated\crypto\crypto\obj\Debug\crypto.pdb

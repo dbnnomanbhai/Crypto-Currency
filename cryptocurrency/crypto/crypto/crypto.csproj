@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30B78D6E-F88D-4BEF-B4CC-024F9E6C4465}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>crypto</RootNamespace>
+    <AssemblyName>crypto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>crypto_88R_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a491a2a4608337e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\CryptoServiceLib.1.0.1\lib\net452\CryptoLib.dll</HintPath>
+    </Reference>
+    <Reference Include="KeyConverter, Version=1.0.0.1, Culture=neutral, PublicKeyToken=3b3c36df0485891c, processorArchitecture=MSIL">
+      <HintPath>..\packages\KeyConverter.1.0.1\lib\net452\KeyConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addmoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addmoney.Designer.cs">
+      <DependentUpon>Addmoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddCoin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddCoin.Designer.cs">
+      <DependentUpon>AdminAddCoin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminlogin.Designer.cs">
+      <DependentUpon>Adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRegistration.Designer.cs">
+      <DependentUpon>AdminRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateProfile.Designer.cs">
+      <DependentUpon>AdminUpdateProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewQuery.Designer.cs">
+      <DependentUpon>AdminViewQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewTrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewTrans.Designer.cs">
+      <DependentUpon>AdminViewTrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buycoin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buycoin.Designer.cs">
+      <DependentUpon>Buycoin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coin.Designer.cs">
+      <DependentUpon>Coin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CryproTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CryproTransaction.Designer.cs">
+      <DependentUpon>CryproTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerView.Designer.cs">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletcustomer.Designer.cs">
+      <DependentUpon>Deletcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Developer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Developer.Designer.cs">
+      <DependentUpon>Developer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sir.Designer.cs">
+      <DependentUpon>sir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomer.Designer.cs">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viewbalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewbalance.Designer.cs">
+      <DependentUpon>Viewbalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdraw.Designer.cs">
+      <DependentUpon>Withdraw.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addmoney.resx">
+      <DependentUpon>Addmoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddCoin.resx">
+      <DependentUpon>AdminAddCoin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminlogin.resx">
+      <DependentUpon>Adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRegistration.resx">
+      <DependentUpon>AdminRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdateProfile.resx">
+      <DependentUpon>AdminUpdateProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewQuery.resx">
+      <DependentUpon>AdminViewQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewTrans.resx">
+      <DependentUpon>AdminViewTrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buycoin.resx">
+      <DependentUpon>Buycoin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coin.resx">
+      <DependentUpon>Coin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CryproTransaction.resx">
+      <DependentUpon>CryproTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerView.resx">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletcustomer.resx">
+      <DependentUpon>Deletcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Developer.resx">
+      <DependentUpon>Developer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sir.resx">
+      <DependentUpon>sir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomer.resx">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewbalance.resx">
+      <DependentUpon>Viewbalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdraw.resx">
+      <DependentUpon>Withdraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIGNUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-colorful-ink-splash-brush-background-picture-image_4781.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-colorful-ink-splash-brush-background-picture-image_47811.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp3287416.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-wallpaper-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB-Background-102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB-Background-1021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-1420440.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-14204401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9556248b4747950.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29hh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="crypto_88R_icon.ico" />
+    <Content Include="Mono.Cecil.dll" />
+    <Content Include="nunit.engine.api.dll" />
+    <Content Include="nunit.engine.dll" />
+    <Content Include="NUnit3.TestAdapter.dll" />
+    <Content Include="NUnit3.TestAdapter.pdb" />
+    <None Include="Resources\16398968590021.jpg" />
+    <None Include="Resources\nazmul sir 4.jpg" />
+    <None Include="Resources\1639896859002.jpg" />
+    <None Include="Resources\IMG_20211219_124825 %282%29.jpg" />
+    <None Include="Resources\sirrimage .jpg" />
+    <None Include="Resources\Screenshot_2021-12-19-12-47-56-993_com.facebook.lite.jpg" />
+    <None Include="Resources\IMG_20211219_123705.jpg" />
+    <None Include="Resources\pexels-photo-1590549.jpg" />
+    <None Include="Resources\iStock-6962214842.jpg" />
+    <None Include="Resources\CB-Background-1024.jpg" />
+    <None Include="Resources\nazmul sir 2.jpg" />
+    <None Include="Resources\nazmul sir 1.jpg" />
+    <None Include="Resources\beautiful-autumn-foliage-background-brunches-falling-tree-leaves-sky-bokeh-982807951.jpg" />
+    <None Include="Resources\imhhages.jpg" />
+    <None Include="Resources\iStock-6962214841.jpg" />
+    <None Include="Resources\imssages.jpg" />
+    <None Include="Resources\iStock-696221484.jpg" />
+    <None Include="Resources\nazmul hasan si.jpg" />
+    <None Include="Resources\nazmul sir .jpg" />
+    <None Include="Resources\CRYPTO-BITCOIN-ETHEREUM-DOGECOIN-REUTERS-1200.jpg" />
+    <None Include="Resources\bitcoin-wallet.jpg" />
+    <None Include="Resources\bitcoin-gold-cryptocurrency-trading-chart-smartphone-close-up-1833850191.jpg" />
+    <None Include="Resources\370922-cryptocurrency.jpg" />
+    <None Include="Resources\d54d06_7b2fe2bfe4944925b0b8e65c7f685da1_mv2.jpg" />
+    <None Include="Resources\beautiful-autumn-foliage-background-brunches-falling-tree-leaves-sky-bokeh-98280795.jpg" />
+    <None Include="Resources\imaghhes.jpg" />
+    <None Include="Resources\istockphoto-1264035525-170667a1.jpg" />
+    <None Include="Resources\wp32874161.jpg" />
+    <None Include="Resources\istockphoto-1264035525-170667a.jpg" />
+    <None Include="Resources\pngtree-colorful-ink-splash-brush-background-picture-image_47812.jpg" />
+    <None Include="Resources\f3356554147945.5955039c9e9a1.jpg" />
+    <None Include="Resources\download %281%291.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\CB-Background-1023.jpg" />
+    <None Include="Resources\imaaaages1.jpg" />
+    <None Include="Resources\IMG_20211213_203608.jpg" />
+    <None Include="Resources\pexels-photo-14204403.jpg" />
+    <None Include="Resources\imaaaages.jpg" />
+    <None Include="Resources\white-wallpaper-121.jpg" />
+    <None Include="Resources\IMG_20211213_201045.jpg" />
+    <None Include="Resources\20210203_2219531.jpg" />
+    <None Include="Resources\IMG_20211213_201111.jpg" />
+    <None Include="Resources\1629900178555.jpg" />
+    <None Include="Resources\20210203_221953.jpg" />
+    <None Include="Resources\istockphoto-1169929038-170667a.jpg" />
+    <None Include="Resources\dd1.jpg" />
+    <None Include="Resources\bitcoin-gold-cryptocurrency-trading-chart-smartphone-close-up-183385019.jpg" />
+    <None Include="Resources\dd.jpg" />
+    <None Include="Resources\istockphoto-1034363382-612x612.jpg" />
+    <None Include="Resources\pexels-photo-14204402.jpg" />
+    <None Include="Resources\lovepik-business-transaction-cooperation-picture_500494886.jpg" />
+    <None Include="Resources\CB-Background-1022.jpg" />
+    <None Include="Resources\ecommerce-2140603__340.jpg" />
+    <None Include="Resources\depositphotos_40452257-stock-illustration-secure-transaction-button.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
